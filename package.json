@@ -1,0 +1,11 @@
+{
+  "name": "moraes-mecanica-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page da Moraes Mecânica (Jardim Limoeiro, Serra - ES), sem dependências.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
