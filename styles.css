@@ -112,7 +112,7 @@ figure { margin: 0; }
 /* Peças e pneus */
 .balcao { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 56px; align-items: center; }
 .balcao-foto { border-radius: var(--raio); overflow: hidden; }
-.balcao-foto img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.balcao-foto img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 78% 50%; }
 .balcao-texto { display: grid; gap: 18px; }
 .lista-check { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 10px; }
 .lista-check li { display: flex; gap: 10px; align-items: flex-start; font-weight: 600; }

@@ -64,10 +64,11 @@ Fotos reais da oficina, cedidas pela empresa. As placas dos carros de clientes f
 
 - `elevadores`: galpão com a fileira de elevadores (abertura e imagem de compartilhamento `og-image.jpg`).
 - `box` e `box-detalhe`: carro de capô aberto no elevador (serviços). No computador e no celular entra o recorte `box-detalhe`; no tablet, a foto inteira.
-- `recepcao`: balcão de atendimento e entrada dos carros (orçamento).
+- `recepcao`: balcão de atendimento e entrada dos carros (peças e pneus).
+- `galpao`: salão da oficina com os carros nos elevadores (orçamento).
 - `fachada`: fachada com a placa do Centro Automotivo AutoClub (onde fica).
 
-A única foto ilustrativa que ficou é a do balcão de peças com pneus (seção peças e pneus), feita para esta proposta porque não há foto real dessa parte da loja. Se a oficina mandar uma foto do balcão ou do estoque de pneus, trocar `assets/img/pecas.webp` e `pecas-720.webp`.
+Se a oficina mandar uma foto do estoque de peças ou de pneus, ela pode entrar no lugar da recepção na seção peças e pneus.
 
 ## Fontes
 
