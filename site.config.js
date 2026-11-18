@@ -1,6 +1,5 @@
 // Configuração da Moraes Mecânica.
-// whatsapp: país + DDD + número, só dígitos (ex.: '5527999998888').
-// Vazio = modo demonstração: os botões mostram a mensagem pronta para copiar.
+// whatsapp: país + DDD + número, só dígitos. Os botões de pedido abrem a conversa neste número.
 window.MORAES_CONFIG = Object.freeze({
-  whatsapp: '',
+  whatsapp: '5527999565037',
 });

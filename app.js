@@ -16,40 +16,10 @@
     toastTimer = setTimeout(() => toastElement.classList.remove('is-visible'), 2600);
   }
 
-  // Com número configurado abre o WhatsApp; sem número mostra a mensagem para copiar.
-  const dialog = $('#msg-dialog');
-  const dialogText = $('#msg-text');
-  let dialogOpener = null;
+  // Abre a conversa no WhatsApp da oficina com a mensagem pronta.
   function send(message) {
-    if (whatsapp) {
-      window.open(`https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
-      return;
-    }
-    dialogOpener = document.activeElement;
-    dialogText.textContent = message;
-    if (typeof dialog.showModal === 'function') dialog.showModal();
-    else dialog.setAttribute('open', '');
+    window.open(`https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
   }
-  function closeDialog() {
-    if (typeof dialog.close === 'function') dialog.close();
-    else dialog.removeAttribute('open');
-  }
-  dialog.addEventListener('close', () => { if (dialogOpener && dialogOpener.focus) dialogOpener.focus(); });
-  dialog.addEventListener('click', event => { if (event.target === dialog) closeDialog(); });
-  $$('[data-close-dialog]').forEach(button => button.addEventListener('click', closeDialog));
-  $('#msg-copy').addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(dialogText.textContent);
-      toast('Mensagem copiada');
-    } catch {
-      const range = document.createRange();
-      range.selectNodeContents(dialogText);
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-      toast('Mensagem selecionada: use Ctrl+C para copiar');
-    }
-  });
 
   // Menu do celular.
   const navToggle = $('.menu-toggle');

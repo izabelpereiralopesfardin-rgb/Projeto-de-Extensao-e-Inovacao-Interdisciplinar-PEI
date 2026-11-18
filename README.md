@@ -21,7 +21,7 @@ Depois de publicar, acrescente no `<head>` do `index.html` o endereço definitiv
 
 ## Configurar (site.config.js)
 
-- `whatsapp`: país + DDD + número, só dígitos (ex.: `5527999998888`). Com o número preenchido, todos os botões abrem a conversa já com a mensagem pronta (link `wa.me`). Vazio, a página mostra a mensagem numa janela para copiar e indica o telefone fixo. Hoje está vazio: o cadastro da empresa só traz o fixo (27) 3328-1611.
+- `whatsapp`: país + DDD + número, só dígitos. Está com o WhatsApp da oficina, (27) 99956-5037 (`5527999565037`). Os botões de pedido (orçamento, preço do pneu e troca de óleo) abrem a conversa nesse número com a mensagem pronta (link `wa.me`). Os botões "Ligar" usam o mesmo número, direto no `index.html` (`tel:+5527999565037`).
 
 ## O que tem na página
 
@@ -42,7 +42,7 @@ Conferidos no cadastro da Receita Federal (situação ativa):
 - Razão social: Moraes Mecânica X Serviços e Comércio Ltda. Nome fantasia no cadastro: Auto Club Automotivo.
 - CNPJ 39.519.041/0001-24, aberta em 22/10/2020.
 - Endereço: Av. Desembargador Mário da Silva Nunes, s/n, Jardim Limoeiro, Serra - ES, CEP 29164-044.
-- Telefone do cadastro: (27) 3328-1611.
+- Telefone do cadastro: (27) 3328-1611 (aparece só como texto, em "Onde fica"). O contato principal do site é o WhatsApp (27) 99956-5037.
 - Atividades: manutenção e reparação mecânica, comércio de peças e acessórios novos, comércio de pneus e câmaras.
 
 ## Antes de entregar ao cliente
@@ -50,7 +50,6 @@ Conferidos no cadastro da Receita Federal (situação ativa):
 O que está abaixo é ilustrativo e precisa ser confirmado com a oficina:
 
 - Horário de atendimento (seg. a sex. 8h às 18h, sáb. 8h às 12h).
-- Número de WhatsApp, se houver.
 - Lista de serviços: freio, suspensão, motor, embreagem, arrefecimento e revisão foram escolhidos pela atividade da empresa. Retirar o que a oficina não faz.
 - Montagem de pneus na oficina e itens do balcão de peças.
 - Os passos do atendimento (avaliação, orçamento com peça e mão de obra separados, serviço só depois do ok).
