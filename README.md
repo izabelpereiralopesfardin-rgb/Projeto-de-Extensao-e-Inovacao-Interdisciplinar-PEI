@@ -21,11 +21,11 @@ Depois de publicar, acrescente no `<head>` do `index.html` o endereço definitiv
 
 ## Configurar (site.config.js)
 
-- `whatsapp`: país + DDD + número, só dígitos. Está com o WhatsApp da oficina, (27) 99956-5037 (`5527999565037`). Os botões de pedido (orçamento, preço do pneu e troca de óleo) abrem a conversa nesse número com a mensagem pronta (link `wa.me`). Os botões "Ligar" usam o mesmo número, direto no `index.html` (`tel:+5527999565037`).
+- `whatsapp`: país + DDD + número, só dígitos. Está com o WhatsApp da oficina, (27) 99956-5037 (`5527999565037`). Os botões de pedido (orçamento, preço do pneu e troca de óleo) abrem a conversa nesse número com a mensagem pronta (link `wa.me`). Os botões de contato (cabeçalho, abertura, barra do celular, "Onde fica" e rodapé) também abrem o WhatsApp nesse número, com o link direto no `index.html` (`https://wa.me/5527999565037`).
 
 ## O que tem na página
 
-1. Abertura com a foto real do galpão, endereço e horário, e os botões "Pedir orçamento" e "Ligar".
+1. Abertura com a foto real do galpão, endereço e horário, e os botões "Pedir orçamento" e "WhatsApp".
 2. Serviços organizados pelo sintoma (freios, suspensão e direção, motor, embreagem e câmbio, revisão, arrefecimento, óleo e filtros, pneus). O link de cada card marca o serviço no pedido de orçamento.
 3. Peças e pneus: balcão de peças, guia para ler a medida na lateral do pneu e pedido de preço pela medida.
 4. Troca de óleo: a pessoa informa a quilometragem e o tipo de óleo, e a etiqueta de para-brisa mostra a próxima troca (km e data). Uso pesado corta o intervalo pela metade.
@@ -33,7 +33,7 @@ Depois de publicar, acrescente no `<head>` do `index.html` o endereço definitiv
 6. Onde fica: foto da fachada, endereço, Google Maps, Waze, telefone e horário.
 7. Rodapé com razão social, nome fantasia, CNPJ e o crédito "Desenvolvido por grupo de alunos Multivix PEI2".
 
-No celular aparece uma barra fixa com "Ligar" e "Orçamento".
+No celular aparece uma barra fixa com "WhatsApp" e "Orçamento".
 
 ## Dados da empresa
 
